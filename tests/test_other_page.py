@@ -9,7 +9,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from pages.cart_page import Cart_page
 from pages.main_other_page import Main_other_page
-from pages.finish_page import Finish_page
 from pages.login_page import Login_page
 from pages.main_page import Main_page
 from pages.payment_page import Payment_page
