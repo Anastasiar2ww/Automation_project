@@ -71,8 +71,8 @@ class Login_page(Base):
         self.driver.maximize_window()
         self.get_current_url()
         self.click_input_button()
-        self.input_user_name('testik10')
-        self.input_password('testik10!22')
+        self.input_user_name('')
+        self.input_password('')
         self.click_login_button()
         self.assert_correct_url()
 
